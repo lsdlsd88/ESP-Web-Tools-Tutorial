@@ -3,7 +3,7 @@
     "new_install_prompt_erase": true,
     "builds": [
       {
-        "chipFamily": "ESP32",
+        "chipFamily": "ESP32-S3",
         "parts": [
           { "path": "LvglBenchmark.ino.bootloader.bin", "offset":  },
           { "path": "LvglBenchmark.ino.partitions.bin", "offset": 32768 },
