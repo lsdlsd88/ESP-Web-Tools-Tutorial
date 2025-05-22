@@ -1,20 +1,14 @@
 {
-    "name": "CYD FreeTouchDeck",
+    "name": "LGVL_Bench",
     "new_install_prompt_erase": true,
     "builds": [
       {
         "chipFamily": "ESP32",
         "parts": [
+          { "path": "LvglBenchmark.ino.bootloader.bin", "offset":  },
+          { "path": "LvglBenchmark.ino.partitions.bin", "offset": 32768 },
           { "path": "boot_app0.bin", "offset": 57344 },
-          { "path": "FreeTouchDeck.ino.bin ", "offset": 65536 },
-          { "path": "FreeTouchDeck.ino.bootloader.bin", "offset": 4096 },
-          { "path": "FreeTouchDeck.ino.partitions.bin", "offset": 32768 }
-        ]
-      },
-      {
-        "chipFamily": "ESP8266",
-        "parts": [
-          { "path": "esp8266/SerialHelloWorld.ino.bin", "offset": 0 }
+          { "path": "LvglBenchmark.ino.bin", "offset": 65536 }
         ]
       }
     ]
